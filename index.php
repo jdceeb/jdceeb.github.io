@@ -19,13 +19,10 @@
   </head>
    <body>
      
-     <div class="center_page">
-     <?php 
-        $node1 = fopen("node/one.txt", "r"); 
-        echo $node1;
-     ?>
-     </div>
-       
+     <article id="node-1">
+       <iframe src="node/one.html"></iframe>
+       </article>
+     
      <div class="credits text-effect box">
       Created by <a href="kdiacodes.js.org">Samuel Kenrick</a>
     </div>
