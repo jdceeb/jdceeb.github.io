@@ -41,7 +41,7 @@ h1 {
 .center_page {
   width: 100%;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 40%;
   transform: translate(-50%, -50%);
 }
