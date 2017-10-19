@@ -12,16 +12,22 @@
     <meta content="Junior Debate Club RSS Feed" property="og:title" />
     <meta content="That one website no one uses but yeah" property="og:description" />
     
-    <!-- css -->
+    <!-- css/jquery -->
+    <script src="jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="main.css">
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+        $('#node-1').load('node/one.html',function(){alert('loaded')});
+        });
+        </script>
 
    
   </head>
    <body>
      
      <article id="node-1">
-       <iframe src="node/one.html"></iframe>
-       </article>
+       
+     </article>
      
      <div class="credits text-effect box">
       Created by <a href="kdiacodes.js.org">Samuel Kenrick</a>
