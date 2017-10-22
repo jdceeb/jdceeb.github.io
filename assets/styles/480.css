@@ -19,6 +19,13 @@ body::before {
     opacity: 0.05;
 }
 
+.logo {
+    height: 250px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+
 p {
   font-size: 12px;
 }
