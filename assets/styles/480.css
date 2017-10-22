@@ -78,5 +78,5 @@ p {
 }
 
 .logo {
-    display: none;
+    visibility: hidden;
 }
