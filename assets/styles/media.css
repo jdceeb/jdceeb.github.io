@@ -13,9 +13,9 @@
      .social p {
          margin-bottom: 15px;
      }
-    p .catch-phrase{
+     .catch-phrase p {
         font-size: 12px;
-    }
+     }
     .button {
         position: relative;
         overflow: hidden; // so important!
@@ -61,7 +61,7 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 60px;
     }
-    p .catch-phrase {
+    .catch-phrase p {
         font-size: 46px;
     }
     .button {
