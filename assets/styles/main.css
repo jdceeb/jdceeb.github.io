@@ -69,27 +69,54 @@ body::before {
     color: #000;
 }
 
-a.button {
-    font-family: Arial, FontAwesome;
-    border-radius: 5px;
-    font-size: 5vmin;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    margin-bottom: 7px;
-    text-decoration: none;
-    transition: all 0.5s ease;
+.button {
+  position: relative;
+  overflow: hidden; // so important!
+  margin: 0.5em 0;
+  padding: 1em 0.75em;
+  width: 80%;
+  
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 1.1em;
+  font-weight: 500;
+  background: #ccc;
+  border-radius: 0.25em;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
-a.button:hover {
-    transition: all 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.5);
+.button-ink {
+  box-shadow: 0 2px 4px rgba(#000, 0.4);
+  
+&.raised {
+    animation: raised 0.45s ease;
+  }
 }
 
-.button_line {
-  color: white;
-  width: 100%;
+.ink {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  
+  transform: scale(0);
+  border-radius: 51%;
+  background: #ffeb3b;
+  
+  &.spill {
+    animation: spill 0.65s ease;
+  }
+}
+
+@keyframes spill {
+  100% {
+    opacity: 0;
+    transform: scale(3.5);
+  }
+}
+@keyframes raised {
+  100% {
+    box-shadow: 0 4px 8px rgba(#000, 0.4);
+  }
 }
 
 @media screen and (max-width: 710px) {
@@ -108,9 +135,6 @@ a.button:hover {
      .social p {
          margin-bottom: 15px;
      }
-     a.button {
-        font-size: 7vmin;
-    }
 }
 @media screen and (min-width: 711px) {
     .social ul{
