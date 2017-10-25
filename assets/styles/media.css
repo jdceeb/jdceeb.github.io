@@ -23,11 +23,10 @@
         padding: 12px 9px;
         width: 50%;
   
-        color: rgba(0, 0, 0, 0.56);
+        color: #FFFFFF;
         font-size: 12px;
         font-weight: 500;
         background: #727BA8;
-        opacity: 0.75;
         border-radius: 2px;
         text-align: center;
         -webkit-tap-highlight-color: transparent;
@@ -40,11 +39,10 @@
         padding: 12px 9px;
         width: 50%;
   
-        color: rgba(0, 0, 0, 0.56);
+        color: #FFFFFF;
         font-size: 12px;
         font-weight: 500;
         background: #727BA8;
-        opacity: 1;
         border-radius: 2px;
         text-align: center;
         -webkit-tap-highlight-color: transparent;
@@ -75,11 +73,10 @@
         padding: 12px 9px;
         width: 50%;
   
-        color: rgba(0, 0, 0, 0.56);
+        color: #FFFFFF;
         font-size: 25px;
         font-weight: 500;
         background: #727BA8;
-        opacity: 0.75;
         border-radius: 2px;
         text-align: center;
         -webkit-tap-highlight-color: transparent;
@@ -92,11 +89,10 @@
         padding: 12px 9px;
         width: 50%;
   
-        color: rgba(0, 0, 0, 0.56);
+        color: #FFFFFF;
         font-size: 30px;
         font-weight: 500;
         background: #727BA8;
-        opacity: 1;
         border-radius: 2px;
         text-align: center;
         -webkit-tap-highlight-color: transparent;
