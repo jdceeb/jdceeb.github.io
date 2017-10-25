@@ -73,6 +73,23 @@ a:hover {
   -webkit-tap-highlight-color: transparent;
 }
 
+.index-button {
+  position: relative;
+  overflow: hidden; // so important!
+  margin: 3px 0;
+  padding: 12px 9px;
+  width: 50%;
+  
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 12px;
+  font-weight: 500;
+  background: #727BA8;
+  opacity: 1;
+  border-radius: 2px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media screen and (max-width: 710px) {
     .logo {
         visibility: hidden;
