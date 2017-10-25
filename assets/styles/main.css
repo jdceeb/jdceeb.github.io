@@ -59,7 +59,7 @@ a:hover {
 .button {
   position: relative;
   overflow: hidden; // so important!
-  margin: 0.5em 0;
+  margin: 0.2em 0;
   padding: 1em 0.75em;
   width: 50%;
   
@@ -68,7 +68,7 @@ a:hover {
   font-weight: 500;
   background: #ccc;
   opacity: .4;
-  border-radius: 0.25em;
+  border-radius: 0.15em;
   text-align: center;
   -webkit-tap-highlight-color: transparent;
 }
