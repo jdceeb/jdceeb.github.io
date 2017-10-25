@@ -59,16 +59,16 @@ a:hover {
 .button {
   position: relative;
   overflow: hidden; // so important!
-  margin: 0.2em 0;
-  padding: 1em 0.75em;
+  margin: 3px 0;
+  padding: 12px 9px;
   width: 50%;
   
   color: rgba(0, 0, 0, 0.56);
-  font-size: 1.1em;
+  font-size: 12px;
   font-weight: 500;
   background: #ccc;
   opacity: .4;
-  border-radius: 0.15em;
+  border-radius: 2px;
   text-align: center;
   -webkit-tap-highlight-color: transparent;
 }
@@ -88,7 +88,6 @@ a:hover {
 
      .social p {
          margin-bottom: 15px;
-         font-size: 12px;
      }
 }
 @media screen and (min-width: 711px) {
@@ -98,9 +97,6 @@ a:hover {
         list-style: none;
         font-size: 25px;
         font-weight: 700;
-    }
-    .social p {
-        font-size: 25px;
     }
     .logo {
         height: 250px;
