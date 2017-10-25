@@ -20,14 +20,20 @@ body::before {
 }
 
 
-
 .page-wrapper {
     position: relative;
     z-index: 3;
     text-align: center;
 }
 
-
+.social a {		
+    color: inherit;		
+    text-decoration: none;		
+}		
+ 		
+.social a:hover {		
+    color: #000;		
+}
 
 .social p {
     margin-bottom: 15px;
