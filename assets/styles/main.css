@@ -69,6 +69,23 @@ body::before {
     color: #000;
 }
 
+a.button {
+    font-family: Arial, FontAwesome;
+    border-radius: 5px;
+    font-size: 5vmin;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a.button:hover {
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 @media screen and (max-width: 710px) {
     .logo {
@@ -86,6 +103,9 @@ body::before {
      .social p {
          margin-bottom: 15px;
      }
+     a.button {
+        font-size: 7vmin;
+    }
 }
 @media screen and (min-width: 711px) {
     .social ul{
