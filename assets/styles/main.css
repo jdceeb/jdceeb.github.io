@@ -88,6 +88,7 @@ a:hover {
 
      .social p {
          margin-bottom: 15px;
+         font-size: 12px;
      }
 }
 @media screen and (min-width: 711px) {
@@ -98,8 +99,8 @@ a:hover {
         font-size: 25px;
         font-weight: 700;
     }
-    p {
-        font-size: 46px;
+    .social p {
+        font-size: 25px;
     }
     .logo {
         height: 250px;
