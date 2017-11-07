@@ -14,11 +14,12 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
     <script>
-      if ((window.innerWidth
+      while ((window.innerWidth
 || document.documentElement.clientWidth
-|| document.body.clientWidth) < 789) {
-      window.location.href = "https://jdc.js.org/mobile";
+|| document.body.clientWidth) > 789) {
+        return;
       }
+      window.location.href = "https://jdc.js.org/mobile";
     </script>
 
   </head>
