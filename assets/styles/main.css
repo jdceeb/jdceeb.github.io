@@ -19,8 +19,6 @@ body::before {
     opacity: 0.05;
 }
 
-br.index-break{ display: none; content: ' ';}
-
 .page-wrapper {
     position: relative;
     z-index: 3;
@@ -60,7 +58,7 @@ a:hover {
 
 
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1366px) {
     .logo {
         visibility: hidden;
     }
@@ -110,10 +108,8 @@ a:hover {
     
 }
 
-@media screen and (max-width 1079px) {br { display: inline }}
 
-
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1367px) {
     .social ul{
         padding: 0;
         margin: 0;
