@@ -55,7 +55,7 @@ a:hover {
     content: "";
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1919px) {
     .logo {
         visibility: hidden;
     }
@@ -104,7 +104,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 1920px) {
     .social ul{
         padding: 0;
         margin: 0;
