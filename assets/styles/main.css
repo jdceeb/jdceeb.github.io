@@ -19,6 +19,8 @@ body::before {
     opacity: 0.05;
 }
 
+br.index-break {display:none;}
+
 .page-wrapper {
     position: relative;
     z-index: 3;
@@ -69,6 +71,9 @@ a:hover {
         font-size: 12px;
         font-weight: 700;
 
+     }
+     br.index-break{
+        display: inline;
      }
      p.social {
          margin-bottom: 15px;
