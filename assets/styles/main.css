@@ -60,7 +60,7 @@ a:hover {
 
 
 
-@media screen and (max-width: 1919px) {
+@media screen and (max-width: 1079px) {
     .logo {
         visibility: hidden;
     }
@@ -107,13 +107,13 @@ a:hover {
         text-align: center;
         -webkit-tap-highlight-color: transparent;
     }
-    br { display: inline }
+    
 }
 
+@media screen and (max-width 1900px) {br { display: inline }}
 
 
-
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1080px) {
     .social ul{
         padding: 0;
         margin: 0;
