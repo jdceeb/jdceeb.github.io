@@ -19,6 +19,8 @@ body::before {
     opacity: 0.05;
 }
 
+br{ display: none; }
+
 .page-wrapper {
     position: relative;
     z-index: 3;
@@ -54,6 +56,9 @@ a:hover {
 .social ul li:last-child::after {
     content: "";
 }
+
+
+
 
 @media screen and (max-width: 1919px) {
     .logo {
@@ -102,7 +107,11 @@ a:hover {
         text-align: center;
         -webkit-tap-highlight-color: transparent;
     }
+    br { display: inline }
 }
+
+
+
 
 @media screen and (min-width: 1920px) {
     .social ul{
