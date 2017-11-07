@@ -58,7 +58,7 @@ a:hover {
 }
 
 
-
+@media screen and (min-width: 789px) {
     .social ul{
         padding: 0;
         margin: 0;
@@ -105,3 +105,61 @@ a:hover {
         -webkit-tap-highlight-color: transparent;
     }
 
+}
+
+
+
+@media screen and (max-width: 788px) {
+    .logo {
+        visibility: hidden;
+    }
+    .social ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: 12px;
+        font-weight: 700;
+
+     }
+     br.indexbreak{
+        display: inline;
+        content: ' ';
+        clear: none;
+     }
+     p.social {
+         margin-bottom: 15px;
+     }
+     p.catch-phrase{
+        font-size: 12px;
+     }
+    .button {
+        position: relative;
+        overflow: hidden; // so important!
+        margin: 3px 0;
+        padding: 12px 9px;
+        width: 50%;
+  
+        font-size: 12px;
+        font-weight: 500;
+        background: #727BA8;
+        border-radius: 2px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .index-button {
+        position: relative;
+        overflow: hidden; // so important!
+        margin: 3px 0;
+        padding: 12px 9px;
+        width: 50%;
+  
+        font-size: 12px;
+        font-weight: 500;
+        background: #727BA8;
+        border-radius: 2px;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+}
